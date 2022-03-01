@@ -9,10 +9,20 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1hSOMHL2JkooNfybkXuTeqK1yGdvBL-6r?alt=media&key=AIzaSyCHE3goxMIau1xwZDTc_WviT2H4y_QLBpo'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = [
+              'pepe', 'doge', 'drake hotline bling', 'two buttons', 'running away balloon', 'Left Exit 12 Off Ramp',
+              'Buff Doge vs. Cheems', 'Change My Mind', 'Gru\'s Plan', 'Bernie I Am Once Again Asking For Your Support',
+              'Woman Yelling At Cat', 'Batman Slapping Robin', 'Waiting Skeleton', 'Expanding Brain', 'Epic Handshake',
+              'Disaster Girl', 'Tuxedo Winnie The Pooh', 'Sad Pablo Escobar', 'Boardroom Meeting Suggestion', 
+              'I Bet He\'s Thinking About Other Women', 'Monkey Puppet', 'Panik Kalm Panik', 'Always Has Been',
+              'Mocking Spongebob', 'X, X Everywhere', 'Anakin Padme 4 Panel', 'Blank Nut Button', 'Hide the Pain Harold',
+              'They\'re The Same Picture', 'Bike Fall', 'Is This A Pigeon', 'Clown Applying Makeup', 'One Does Not Simply',
+              'Trade Offer', 'Guy Holding Cardboard Sign', 'Inhaling Seagull', 'This Is Fine', 'Ancient Aliens', 'The Rock Driving',
+              'The Scroll Of Truth'
+            ]
 path = Path(__file__).parent
 
 app = Starlette()
