@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.dropbox.com/s/wuyd1myn5j6chk4/meme_classifierV2.pkl?dl=1'
-export_file_name = 'meme_classfierV2.pkl'
+export_file_name = 'meme_classifierV2.pkl'
 
 classes = ['pepe', 'doge', 'drake hotline bling', 'two buttons', 'running away balloon', 'Left Exit 12 Off Ramp','Buff Doge vs. Cheems', 'Change My Mind', 'Gru\'s Plan', 'Bernie I Am Once Again Asking For Your Support','Woman Yelling At Cat', 'Batman Slapping Robin', 'Waiting Skeleton', 'Expanding Brain', 'Epic Handshake','Disaster Girl', 'Tuxedo Winnie The Pooh', 'Sad Pablo Escobar', 'Boardroom Meeting Suggestion', 'I Bet He\'s Thinking About Other Women', 'Monkey Puppet', 'Panik Kalm Panik', 'Always Has Been','Mocking Spongebob', 'X, X Everywhere', 'Anakin Padme 4 Panel', 'Blank Nut Button', 'Hide the Pain Harold','They\'re The Same Picture', 'Bike Fall', 'Is This A Pigeon', 'Clown Applying Makeup', 'One Does Not Simply','Trade Offer', 'Guy Holding Cardboard Sign', 'Inhaling Seagull', 'This Is Fine', 'Ancient Aliens', 'The Rock Driving','The Scroll Of Truth']
 # classes = ['black', 'grizzly', 'teddys']
