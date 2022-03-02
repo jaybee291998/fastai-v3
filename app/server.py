@@ -8,6 +8,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+from pathlib import Path
 
 export_file_url = 'https://www.dropbox.com/s/wuyd1myn5j6chk4/meme_classifierV2.pkl?raw=1'
 export_file_name = 'export.pkl'
